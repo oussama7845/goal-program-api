@@ -1,0 +1,24 @@
+{
+  "name": "api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "build": "node ./bin/www",
+    "devStart": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-validator": "^7.0.1",
+    "luxon": "^3.3.0",
+    "mongoose": "^7.1.0",
+    "morgan": "~1.9.1",
+    "programme": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
