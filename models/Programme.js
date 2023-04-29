@@ -13,8 +13,9 @@ const programmeSchema = new mongoose.Schema({
     calories_jour: { type: Number, required: true },
     aliments_recommandes: { type: [String], required: true },
     aliments_a_eviter: { type: [String], required: true },
-   // objectif: { type: mongoose.Schema.Types.ObjectId, ref: 'Objectif', required: true }
+    objectifid: { type: Number, ref: 'Objectif', required: true }
   });
+
 
 // (Étape 3) Création d'une nouvelle propriété virtuelle "id" qui aura la valeur de la propriété "_id"
 programmeSchema.virtual("id").get(function () {
