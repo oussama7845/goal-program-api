@@ -1,1 +1,1 @@
-# goal-program
+# goal-program-api
